@@ -1,0 +1,15 @@
+apply plugin: 'eclipse'
+apply plugin: 'groovy'
+
+
+group = 'fr.grenade.groovy.clab.gstring'
+version = '1.0.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all:2.4.4'
+  testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+}
